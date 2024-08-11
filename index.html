@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>2D Game Final</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="icon" href="Idle (1).png" />
+</head>
+
+<body onkeyup="key(event);" class="body">
+
+    <div id="b" class="b">
+
+        <p id="score" class="score">0</p>
+
+        <img id="boy" class="boy" src="Run (1).png"/>
+
+    </div>
+
+    <div id="end" class="end">
+
+        <div>Game Over</div>
+        <div>Your Score</div>
+        <div id="endscore">0</div>
+
+        <button onclick="re();" class="btn">Try Again</button>
+
+    </div>
+
+
+    <div id="level" class="level">
+
+        <div> 1<sup>st</sup> Level Completed</div>
+        <div>Congratulations</div>
+        <div>Your Score</div>
+        <div id="endscore">650</div>
+
+        <button onclick="next();" class="next"><a href="level2.html">Next Level</button>
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
